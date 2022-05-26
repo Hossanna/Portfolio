@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    border-bottom: .5px solid #8080802e;
+}
+
+.quote{
+    height: 500px;
+    padding-top: 10%;
+    border-bottom: .5px solid #8080802e;
+}
+
+/* #big-quote{
+    float: right;
+    margin-right: 2%;
+    width: 50%;
+    margin-top: 5%;
+    font-size: 3rem;
+} */
+#small-quote{
+    float: right;
+    margin-right: 2%;
+    width: 50%;
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+/* h1{
+    
+} */
+
+nav{
+    margin: 0 0 0 3%;
+    height: 50px;
+    text-transform: uppercase;
+    line-height: 70px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a.active{
+    color: grey;
+}
+
+nav a:hover{
+   
+    color: grey;
+    
+}
+
+.home{
+    margin-left: 35%;
+}
+#hello{
+    text-align: center;
+    padding: 5% 2%;
+    
+}
+.hello{
+    width: 70%;
+}
+#photo{
+    border-radius: 5%;
+    width: 40%;
+    height: 350px;
+    margin: 1% 30%;
+    margin-top: 10%;
+}
+
+ul li{
+    padding: 2%;
+}
+ul{
+    padding-left: 5%;
+}
+
+.specialize{
+    width: 50%;
+    font-size: 1.5em;
+}
+#specialize{
+    font-size: 1.8em;
+    margin-bottom: 10%;
+    margin-top: 15%;
+}
+
+.intro{
+    margin-bottom: 15%;
+}
+
+h2{
+    text-align: center;
+    padding-top: 2%;
+}
+.hossy{
+    width: 50%;
+    margin-right: 2%;
+}
+
+#about-me{
+    margin: 5%;
+    width: 90%;
+}
+
+.p{
+    margin-top: 7%;
+    font-size: 1.2em;
+}
+#step{
+    text-align: center;
+    padding: 2% 3%;
+    width: 100%;
+    color: white;
+    font-size: 2em;
+    background-color: black;
+}
+
+.intro{
+    height: 400px;
+}
+.my-work{
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+hr{
+    width: 4%;
+    margin: auto;
+}
+.frontendmentor{
+    color: grey;
+    font-size: 1.2em;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.frontendmentor a{
+    /* text-decoration: none; */
+    color: grey;
+}
+.frontendmentor a:hover{
+    color: black;
+}
+
+.grid img{
+    width: 33.333%;
+    
+}
+.grid{
+    margin: 0 10%;
+}
+
+@keyframes slidein{
+    0%{
+        margin-left: 100%;
+        color: grey;
+        font-size: 3em;
+    }
+    50%{
+        margin-left: 50%;
+        color: red;
+        font-size: 3em;
+    }
+    100%{
+       color: black;
+        float: right;
+        margin-right: 2%;
+        width: 50%;
+        margin-top: 5%;
+        font-size: 3rem;
+    }
+}
+#big-quote{
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+
+}
