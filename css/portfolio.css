@@ -4,120 +4,134 @@
     margin: 0;
 }
 
+/* body{
+    font-family: monospace !important;
+} */
 
 .flex{
     display: flex;
 }
 
+.flexx{
+    display: flex;
+    flex-direction: column;
+}
 
 .navbar{
-    width: 100%;
+    display: block !important;
+    width: 30%;
+    height: 100vh;
     position: fixed;
-    background-color: white;
+    background-color: #f2f3f7;
     padding-top: 2%;
     padding-bottom: 2%;
-    padding-left: 5%;
-    border-bottom: .5px solid #8080802e;
+    margin-left: 5%;
+    transition: 0.5s;
+    overflow: hidden;
 }
 
-.quote{
-    height: 500px;
-    padding-top: 10%;
-    border-bottom: .5px solid #8080802e;
-}
-
-/* #big-quote{
-    float: right;
-    margin-right: 2%;
-    width: 50%;
+#my-name{
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    color: #000;
     margin-top: 5%;
-    font-size: 3rem;
-} */
-#small-quote{
-    float: right;
-    margin-right: 2%;
-    width: 50%;
-    margin-top: 2%;
-    font-size: 1.5rem;
-}
-/* h1{
-    
-} */
-
-nav{
-    margin: 0 0 0 3%;
-    height: 50px;
-    text-transform: uppercase;
-    line-height: 70px;
+    margin-bottom: 0;
+    padding-right: 0.3em;
 }
 
-nav a{
-    color: black;
-    text-decoration: none;
-}
-nav a.active{
-    color: grey;
-}
-
-nav a:hover{
-   
-    color: grey;
+#photo{
+    border-radius: 50%;
+    width: 80%;
+    height: 40vh;
+    margin: 0 13%;
+    margin-bottom: 0;
     
 }
 
-.home{
-    margin-left: 35%;
-}
 #hello{
     text-align: center;
-    padding: 5% 2%;
-    
+    font-size: 1.1em;
+    margin-bottom: 1rem;
 }
 .hello{
-    width: 70%;
-}
-#photo{
-    border-radius: 5%;
-    width: 40%;
-    height: 350px;
-    margin: 1% 30%;
-    margin-top: 10%;
+    width: 80%;
+    margin: 0 10%;
 }
 
 ul li{
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: .9em;
     padding: 2%;
 }
 ul{
     padding-left: 5%;
+    width: 85%;
 }
 
-.specialize{
-    width: 50%;
-    font-size: 1.5em;
+li a{
+    color: black;
+    text-decoration: none;
 }
+li a.active{
+    color: grey;
+}
+
+li a:hover{
+    color: grey;
+}
+
+
+.main{
+    width: 60vw;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 1.1em;
+}
+
+/* .specialize{
+} */
 #specialize{
-    font-size: 1.8em;
-    margin-bottom: 10%;
-    margin-top: 15%;
+    letter-spacing: 1px;
 }
 
-.intro{
-    margin-bottom: 15%;
+.headings{
+    font-size: 1.7em;
+    margin-top: 5%;
+}
+hr{
+    width: 100%;
+    background-color: #9398af !important;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-h2{
+.box{
+    width: 150px;
+    height: 150px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background-color: #f2f3f7;
+}
+
+
+
+/* h2{
     text-align: center;
     padding-top: 2%;
-}
+} */
 .hossy{
     width: 50%;
     margin-right: 2%;
 }
 
-#about-me{
+/* #about-me{
     margin: 5%;
     width: 90%;
-}
+} */
 
 .p{
     margin-top: 7%;
@@ -132,24 +146,12 @@ h2{
     background-color: black;
 }
 
-.intro{
-    height: 400px;
-}
-.my-work{
-    text-align: center;
-    font-size: 1.8em;
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-hr{
-    width: 4%;
-    margin: auto;
-}
+
 .frontendmentor{
     color: grey;
     font-size: 1.2em;
     margin-bottom: 2%;
-    margin-top: 2%;
+    
     text-align: center;
 }
 
@@ -169,29 +171,51 @@ hr{
     margin: 0 10%;
 }
 
-@keyframes slidein{
-    0%{
-        margin-left: 100%;
-        color: grey;
-        font-size: 3em;
-    }
-    50%{
-        margin-left: 50%;
-        color: red;
-        font-size: 3em;
-    }
-    100%{
-       color: black;
-        float: right;
-        margin-right: 2%;
-        width: 50%;
-        margin-top: 5%;
-        font-size: 3rem;
-    }
+.edu{
+    font-size: 1.2em;
+    text-align: center;
 }
-#big-quote{
-    animation-duration: 5s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
+.form{
+    width: 70%;
+    font-size: 1.2em;
+    margin: 0 auto 10%;
+}
 
+input{
+    width: 100%;
+    padding: 1.5%;
+    border: none;
+    background-color: aliceblue;
+}
+
+input:focus{
+    outline: none;
+}
+.input{
+    margin-top: 1%;
+}
+.inputt{
+    margin-top: 5%;
+}
+.gender{
+    padding: 1.5%;
+    width: 45%;
+    border: none;
+    font-size: 1.1em;
+    margin-right: 10%;
+}
+
+.submit{
+   width: 45%;
+   padding: 2%; 
+   font-size: 1.2em;
+   border: none;
+   color: aliceblue;
+   background-color: rgb(131, 173, 209);
+}
+
+button:hover{
+    color: rgb(131, 173, 209);
+    transition: 1s;
+    background-color: aliceblue;
 }
