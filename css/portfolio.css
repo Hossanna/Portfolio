@@ -19,7 +19,7 @@
 
 .navbar{
     display: block !important;
-    width: 30%;
+    width: 28%;
     height: 100vh;
     position: fixed;
     background-color: #f2f3f7;
@@ -75,8 +75,12 @@ li a{
     color: black;
     text-decoration: none;
 }
+p a {
+    text-decoration: none;
+}
 li a.active{
     color: grey;
+    color: blue;
 }
 
 li a:hover{
@@ -84,7 +88,7 @@ li a:hover{
 }
 
 
-.main{
+.skills{
     width: 60vw;
     padding-left: 5%;
     padding-top: 5%;
@@ -117,42 +121,9 @@ hr{
     background-color: #f2f3f7;
 }
 
-
-
-/* h2{
-    text-align: center;
-    padding-top: 2%;
-} */
-.hossy{
-    width: 50%;
-    margin-right: 2%;
-}
-
-/* #about-me{
-    margin: 5%;
-    width: 90%;
-} */
-
-.p{
-    margin-top: 7%;
-    font-size: 1.2em;
-}
-#step{
-    text-align: center;
-    padding: 2% 3%;
-    width: 100%;
-    color: white;
-    font-size: 2em;
-    background-color: black;
-}
-
-
 .frontendmentor{
     color: grey;
-    font-size: 1.2em;
     margin-bottom: 2%;
-    
-    text-align: center;
 }
 
 .frontendmentor a{
@@ -164,58 +135,38 @@ hr{
 }
 
 .grid img{
-    width: 33.333%;
+    width: 50%;
     
 }
-.grid{
-    margin: 0 10%;
+
+.p{
+    margin-top: 7%;
+    font-size: 1em;
+    background-color: #f2f3f7;
+    padding: 5% ;
 }
 
-.edu{
+.bold{
+    font-size: 1em;
+}
+
+p span{
+    color: grey;
+    font-size: 1em;
+}
+
+.h{
     font-size: 1.2em;
-    text-align: center;
 }
-.form{
-    width: 70%;
-    font-size: 1.2em;
-    margin: 0 auto 10%;
+.t{
+    color: blue;
 }
 
-input{
-    width: 100%;
-    padding: 1.5%;
-    border: none;
-    background-color: aliceblue;
+.div{
+    border-left: 3px solid #f2f3f7;
+    padding-left: 7%;
 }
 
-input:focus{
-    outline: none;
-}
-.input{
-    margin-top: 1%;
-}
-.inputt{
-    margin-top: 5%;
-}
-.gender{
-    padding: 1.5%;
-    width: 45%;
-    border: none;
-    font-size: 1.1em;
-    margin-right: 10%;
-}
-
-.submit{
-   width: 45%;
-   padding: 2%; 
-   font-size: 1.2em;
-   border: none;
-   color: aliceblue;
-   background-color: rgb(131, 173, 209);
-}
-
-button:hover{
-    color: rgb(131, 173, 209);
-    transition: 1s;
-    background-color: aliceblue;
+#contact{
+    margin-bottom: 10%;
 }
