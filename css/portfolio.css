@@ -123,7 +123,8 @@ hr{
     margin-bottom: 2%;
     text-align: center;
     padding: 7% 5%;
-    background-color: #f2f3f7;
+    box-shadow: 0 0 10px 0 #a5acc5;
+    background-color: #ffffff;
 }
 
 
@@ -209,5 +210,8 @@ p span{
         text-align: center;
         padding: 5%;
         background-color: #f2f3f7;
+    }
+    .sticky-top{
+        display: none !important;
     }
 }
