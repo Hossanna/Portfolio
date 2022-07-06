@@ -177,11 +177,11 @@ p span{
     margin-bottom: 10%;
 }
 
-@media screen and (max-width:720px) and (min-width:500px) {
+@media screen and (max-width:800px) and (min-width:0px) {
     .skills {
         width: 100vw;
         padding-left: 2%;
-        padding-right: 5%;
+        padding-right: 2%;
         padding-top: 5%;
         font-size: 1.1em;
     }
