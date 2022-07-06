@@ -29,6 +29,9 @@
     transition: 0.5s;
     overflow: hidden;
 }
+.show{
+    display: none;
+}
 
 #my-name{
     display: block;
@@ -172,4 +175,28 @@ p span{
 
 #contact{
     margin-bottom: 10%;
+}
+
+@media screen and (max-width:720px) and (min-width:500px) {
+    .skills {
+        width: 80vw;
+        padding-left: 5%;
+        padding-top: 5%;
+        font-size: 1.1em;
+    }
+    .navbar{
+        display: none !important;
+        width: 28%;
+        height: 100vh;
+        position: fixed;
+        background-color: #f2f3f7;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-left: 5%;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    /* .show{
+        display: block !important;
+    } */
 }
