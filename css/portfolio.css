@@ -118,8 +118,11 @@ hr{
     height: 150px;
     margin-right: 2%;
     margin-bottom: 2%;
+    text-align: center;
+    padding: 7% 5%;
     background-color: #f2f3f7;
 }
+
 
 .frontendmentor{
     color: grey;
