@@ -179,8 +179,9 @@ p span{
 
 @media screen and (max-width:720px) and (min-width:500px) {
     .skills {
-        width: 80vw;
-        padding-left: 5%;
+        width: 100vw;
+        padding-left: 2%;
+        padding-right: 5%;
         padding-top: 5%;
         font-size: 1.1em;
     }
@@ -199,4 +200,14 @@ p span{
     /* .show{
         display: block !important;
     } */
+
+    .box {
+        width: 150px !important;
+        height: 150px !important;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        text-align: center;
+        padding: 5%;
+        background-color: #f2f3f7;
+    }
 }
