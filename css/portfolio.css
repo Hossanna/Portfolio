@@ -187,7 +187,7 @@ p span{
     }
     .navbar{
         display: none !important;
-        width: 28%;
+        /* width: 28%;
         height: 100vh;
         position: fixed;
         background-color: #f2f3f7;
@@ -195,7 +195,7 @@ p span{
         padding-bottom: 2%;
         margin-left: 5%;
         transition: 0.5s;
-        overflow: hidden;
+        overflow: hidden; */
     }
     /* .show{
         display: block !important;
