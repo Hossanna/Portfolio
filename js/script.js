@@ -7,5 +7,5 @@ function showMenu(){
 }
 
 function hideMenu(){
-    navMenu.style.right= "-400px"
+    navMenu.style.right= "-300px"
 }
