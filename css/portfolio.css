@@ -130,6 +130,11 @@
         background-color: #ffffff;
     }
 
+    .boxxx{
+        width: 80%;
+        margin: auto;
+    }
+
 
     .frontendmentor{
         color: grey;
@@ -310,6 +315,11 @@
         background-color: #ffffff;
     }
 
+    .boxxx{
+        width: 80%;
+        margin: auto;
+    }
+
 
     .frontendmentor{
         color: grey;
@@ -369,13 +379,13 @@
 
 
 @media screen and (max-width:800px)  {
-    /* .skills {
+    .skills {
         width: 100vw;
         padding-left: 2%;
         padding-right: 2%;
         padding-top: 5%;
         font-size: 1.1em;
-    } */
+    }
     /*.navbar{
         display: none !important;
          width: 28%;
@@ -388,10 +398,24 @@
         transition: 0.5s;
         overflow: hidden; 
     }*/
-    /* .show, .navbar{
-        display: block !important;
-    } */
+    
+    .box{
+        width: 75px;
+        height: 75px;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        text-align: center;
+        padding: 5%;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 0 #a5acc5;
+        background-color: #ffffff;
+    }
 
+
+    .boxxx{
+        width: 80%;
+        margin: auto;
+    }
     /* .box {
         width: 150px !important;
         height: 150px !important;
@@ -403,9 +427,7 @@
         box-shadow: 0 0 10px 0 #a5acc5;
         background-color: #ffffff;
     } */
-    /* .sticky-top{
-        display: none !important;
-    }  */
+    
 
     .sidebar .fa{
         display: block !important;
@@ -418,7 +440,8 @@
     .sidebar .fa-bars{
         position: absolute;
         top: 2%;
-        right: 10%;
+        right: 1%;
+        margin-left: 2%;
         width: 30px;
         height: 30px;
     }
@@ -452,19 +475,6 @@
         display: flex;
         flex-direction: column;
     }
-
-    /* .navbar{
-        display: block !important;
-        width: 28%;
-        height: 100vh;
-        position: fixed;
-        background-color: #f2f3f7;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        margin-left: 5%;
-        transition: 0.5s;
-        overflow: hidden;
-    } */
     
 
     #my-name{
@@ -551,17 +561,6 @@
         margin-bottom: 2%;
     }
 
-    .box{
-        width: 150px;
-        height: 150px;
-        margin-right: 2%;
-        margin-bottom: 2%;
-        text-align: center;
-        padding: 7% 5%;
-        border-radius: 5px;
-        box-shadow: 0 0 10px 0 #a5acc5;
-        background-color: #ffffff;
-    }
 
 
     .frontendmentor{
