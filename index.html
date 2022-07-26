@@ -6,31 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <script src="js/script.js" defer></script>
     <script src="js/bootstrap.bundle.min.js" defer></script>
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="sidebar flex">
-        <div class="sticky-top show navbar">
-            <div class="hello">
-                <img id="photo" src="images/3.png" alt="">
 
-                <div id="hello">
-                    <p id="my-name"> Hosanna Bivan</p> 
-                    <b>Frontend Website Developer</b>
-                </div>
+    <!-- <header>
+
+        <nav class="flex">
+          <div class="logo">
+            <img src="images/Logo 2.png" alt="">
+          </div>
+          
+          
+            <div class="navbar" id="navMenu">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <p class="nav"><a class="active" href="index.html"> Home</a> </p>
+              <p class="nav"><a href="products.html"> Products</a></p>
+              <p class="nav"><a href="#"> About Us</a></p>
+              <p class="nav"><a href="contact.html"> Contact Us</a></p>
+              <p class="nav"><a href="#"> Cart</a></p>
+              <button class="btn login btn-outline-success" type="submit">LOGIN</button>
             </div>
-            <ul>
-                <li><a href="#about" data-nav-section="about">About</a></li>
-                <li><a href="#skills" data-nav-section="skills">Skills</a></li>
-                <li><a href="#work-exp" data-nav-section="work">Work Experience</a></li>
-                <li><a href="#education" data-nav-section="education">Education</a></li>
-                <li><a href="#contact" data-nav-section="contact">Contact</a></li>
-                
-            </ul>
-                
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+          
+        </nav>
+ 
+      </header> -->
+
+      
+    <div class="sidebar flex">
+        <div class="nav" id="navMenu">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <div class="sticky-top show navbar" id="navbar" >
+                <div class="hello">
+                    <img id="photo" src="images/new.jpeg" alt="">
+    
+                    <div id="hello">
+                        <p id="my-name"> Hosanna Bivan</p> 
+                        <b>Frontend Website Developer</b>
+                    </div>
+                </div>
+                <ul>
+    
+                    <li><a href="#about" data-nav-section="about">About</a></li>
+                    <li><a href="#skills" data-nav-section="skills">Skills</a></li>
+                    <li><a href="#work-exp" data-nav-section="work">Work Experience</a></li>
+                    <li><a href="#education" data-nav-section="education">Education</a></li>
+                    <li><a href="#contact" data-nav-section="contact">Contact</a></li>
+                    
+                </ul>
+    
+                    
+            </div>
         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+
 
   
         
