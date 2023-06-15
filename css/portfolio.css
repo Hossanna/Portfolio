@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+#advice{
+    height: 90%;
+}
 
 /* body{
     font-family: monospace !important;
@@ -149,9 +152,12 @@
         color: black;
     }
 
-    .grid img{
-        width: 50%;
-        
+    .grid a{
+        width: 50% !important;
+    }
+    
+    a img{
+        width: 100% !important;
     }
 
     .p{
@@ -334,9 +340,9 @@
         color: black;
     }
 
-    .grid img{
-        width: 50%;
-        
+    
+    a img{
+        width: 100%;    
     }
 
     .p{
@@ -578,9 +584,9 @@
         color: black;
     }
 
-    .grid img{
-        width: 50%;
-        
+    
+    a img{
+        width: 100%;    
     }
 
     .p{
