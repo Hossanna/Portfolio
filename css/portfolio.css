@@ -340,9 +340,12 @@
         color: black;
     }
 
+    .grid a{
+        width: 50% !important;
+    }
     
     a img{
-        width: 100%;    
+        width: 100% !important;
     }
 
     .p{
@@ -584,9 +587,12 @@
         color: black;
     }
 
+    .grid a{
+        width: 50% !important;
+    }
     
     a img{
-        width: 100%;    
+        width: 100% !important;
     }
 
     .p{
