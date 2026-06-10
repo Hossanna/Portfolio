@@ -619,7 +619,7 @@ function App() {
                     {/* Image Section - 70% height */}
                     <div className="w-full h-64 overflow-hidden bg-gray-300">
                       <img
-                        src={project.image}
+                        src={`${import.meta.env.BASE_URL}${project.image.replace(/^\//, "")}`}
                         alt={project.name}
                         className="w-full h-full object-cover"
                       />
