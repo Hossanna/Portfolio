@@ -173,7 +173,7 @@ function App() {
         <div className="p-4 space-y-6">
           <div className="text-center">
             <img
-              src="/picture.JPG"
+              src={`${import.meta.env.BASE_URL}picture.JPG`}
               alt="BIVAN HOSANNA"
               className="w-24 h-24 mx-auto mb-4 rounded-full object-cover"
             />
@@ -238,7 +238,7 @@ function App() {
       >
         <div className="text-center mb-6 lg:mb-8">
           <img
-            src="/picture.JPG"
+            src={`${import.meta.env.BASE_URL}picture.JPG`}
             alt="BIVAN HOSANNA"
             className="w-28 lg:w-36 h-28 lg:h-36 mx-auto mb-4 rounded-full object-cover"
           />
